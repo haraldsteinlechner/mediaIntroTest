@@ -1,4 +1,4 @@
-open __PROJECT_NAME__
+open Yeah
 
 open Aardium
 open Aardvark.Service

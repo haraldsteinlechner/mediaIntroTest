@@ -1,4 +1,4 @@
-namespace __PROJECT_NAME__.Model
+namespace Yeah.Model
 
 open System
 open Aardvark.Base
@@ -13,6 +13,7 @@ type Primitive =
 [<DomainType>]
 type Model =
     {
+        count : int
         currentModel    : Primitive
         cameraState     : CameraControllerState
     }
